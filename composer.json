@@ -1,7 +1,7 @@
 {
     "name": "devgmedia/vabca",
     "description": "VABCA Object",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "homepage": "https://github.com/devgmedia/vabca",
     "license": "GPL-2.0-only",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GMedia\\VaBca\\": "src"
+            "Gmedia\\VaBca\\": "src"
         }        
     },
     "require": {
