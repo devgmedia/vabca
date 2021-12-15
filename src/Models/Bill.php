@@ -1,6 +1,6 @@
 <?php
 
-namespace GMedia\VaBca\Models;
+namespace Gmedia\VaBca\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
