@@ -1,0 +1,28 @@
+{
+    "name": "devgmedia/vabca",
+    "description": "VABCA Object",
+    "version": "0.1.0",
+    "homepage": "https://github.com/devgmedia/vabca",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Arief Novianto",
+            "email": "arief.novianto@gmedia.co.id",
+            "homepage": "https://github.com/oppytut",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "arief.novianto@gmedia.co.id"
+    },
+    "autoload": {
+        "psr-4": {
+            "GMedia\\VaBca\\": "src"
+        }        
+    },
+    "require": {
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0",
+        "ajcastro/eager-load-pivot-relations": "^0.2.2"
+    }
+}
