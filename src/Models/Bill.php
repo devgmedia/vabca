@@ -21,6 +21,8 @@ class Bill extends Model
 
         'created_at',
         'updated_at',
+
+        'channel_type_description',
     ];
 
     protected $hidden = [];
@@ -37,5 +39,7 @@ class Bill extends Model
 
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
+
+        'channel_type_description' => 'string',
     ];
 }
