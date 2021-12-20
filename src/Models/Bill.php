@@ -34,7 +34,7 @@ class Bill extends Model
         'customer_number' => 'string',
         'request_id' => 'string',
         'channel_type' => 'string',
-        'transaction_date' => 'string',
+        'transaction_date' => 'datetime',
         'additional_data' => 'string',
 
         'created_at' => 'datetime',
