@@ -4,7 +4,7 @@ namespace Gmedia\VaBca\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Payment extends Model
+class PaymentSettlement extends Model
 {
     protected $connection = 'vabca';
     protected $table = 'payment_settlement';
